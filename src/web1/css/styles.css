@@ -1,0 +1,64 @@
+/* Estilo inspirado en Warhammer 40K */
+
+/* Fuente dramática para darle un toque gótico */
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+/* Fondo oscuro con textura de metal */
+body {
+    background-image: url('https://w.wallhaven.cc/full/g7/wallhaven-g751kq.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #d4af37; /* Dorado imperial */
+    font-family: 'Pirata One', cursive; /* Tipografía gótica para un toque dramático */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Contenedor central para el texto */
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semitransparente */
+    padding: 20px;
+    border: 3px solid #d4af37; /* Bordes dorados como detalles imperiales */
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px black;
+}
+
+/* Estilo para el título principal */
+h1,h6 {
+    font-size: 3em;
+    letter-spacing: 2px;
+    color: #ffffff; /* Blanco resplandeciente para destacar */
+}
+
+/* Estilo para el nombre */
+.signature {
+    font-size: 1.5em;
+    color: #d4af37;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    .signature {
+        font-size: 1em;
+    }
+}
+
+.container2{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0); /* Fondo oscuro semitransparente */
+    padding: 20px;
+    border: 3px solid #d43737; /* Bordes dorados como detalles imperiales */
+    border-radius: 10px;
+   
+}

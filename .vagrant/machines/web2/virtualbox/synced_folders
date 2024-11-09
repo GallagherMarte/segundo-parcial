@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/html":{"type":"virtualbox","guestpath":"/var/www/html","hostpath":"C:/Users/ELIAN/balanceo-carga-parcial2/src/web2","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/ELIAN/balanceo-carga-parcial2","disabled":false,"__vagrantfile":true}}}
